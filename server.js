@@ -7,7 +7,7 @@ const port = process.env.PORT;
 const routes = require("./routes.json");
 
 const app = jsonServer.create();
-const router = jsonServer.router("db.json");
+const router = jsonServer.router("dbChat.json");
 
 app.db = router.db;
 
